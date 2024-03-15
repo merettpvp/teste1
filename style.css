@@ -1,0 +1,49 @@
+div{
+    background-color: rgb(91, 91, 91);/* Cor de fundo */
+    height: 220px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin: 20px 50px 75px 50px; 
+/* especificações de tamanho e margem */
+}
+.meu-botao {
+    width: 50%; /* preenchimento da tela */
+    background-color: #ababab; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor ao passar */
+    border: none; /* Remover borda */
+}
+/* Estilos ao passar o mouse */
+.meu-botao:hover {
+    background-color: #000000; /* Nova cor de fundo */
+    color: rgb(255, 255, 255); /* Cor do texto */
+}        
+body{
+    background-image: url(img/fundo.jpg);/* plano de fundo */
+    background-size: cover; /* tamanho da imagem */
+    background-position: center; /* posicionamento da imagem */
+    font-family: Arial, sans-serif; /* tipo de fonte */
+    text-align: center; /* alinhamento do texto */
+}
+h1 {
+    color: #000000;  /* Cor do texto */
+}
+table {
+    max-height: max-content;  /* especificação de tamanho da tabela */
+    width: 100%; /* preenchimento de tela */
+    border-image: auto;  /* borda da imagem na tabela */
+    border-collapse: collapse; /* bordas da tabela se colapsando */
+}
+th, td {
+    background-color: transparent; /* Cor do fundo transparente */
+    border: 1px solid black; /* Cor da borda */
+    padding: 20px; /* espaçamento interno */
+    text-align: center; /* alinhamento do texto */
+}
